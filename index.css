@@ -1,0 +1,40 @@
+#footer {
+  background-color: #69B99D;
+  color: rgba(28, 29, 29, 0.856);
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin-top: 1em;
+}
+
+.nav-item {
+  color: #69B99D;
+}
+
+.nav-item {
+  color:#69B99D;
+
+}
+
+.container {
+  margin: 5%;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.btn-agenda{
+  background-color:#69B99D;
+}
+
+.instagram {
+  width: 10%;
+  color: rgb(63, 61, 61);
+}
+
+.whatsapp {
+  width: 10%;
+  color: white;
+}
+
+

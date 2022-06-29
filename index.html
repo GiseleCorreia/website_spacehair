@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="index.css" rel="stylesheet" />
+    <title>.: Beauty Salon :.</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Agendar</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Serviços
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Cabelo</a></li>
+                <li><a class="dropdown-item" href="#">Unha</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Make</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Produtos</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!--Carousel-->
+    <div
+      id="carouselExampleDark"
+      class="carousel carousel-dark slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000">
+          <img src="./imagens/index_salon.png" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <!--<h5>Nosso espaço</h5>
+            <p>Venha e sinta-se especial conosco</p>-->
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./imagens/index_make.png" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+             <!--<h5>Beleza</h5>
+            <p>Aqui a beleza é o seu padrão.</p>-->
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./imagens/index_colabs.png" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+             <!--<h5>Nossa equipe</h5>
+            <p>Nossas colabs estão prontas para te atender.</p>-->
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!--Mais uma linha-->
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h3 class="text-center">Sobre nós</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <p>
+            Mussum Ipsum, cacilds vidis litro abertis. Quem num gosta di mé, boa
+            gentis num é.Leite de capivaris, leite de mula manquis sem cabeça.Tá
+            deprimidis, eu conheço uma cachacis que pode alegrar sua vidis.Não
+            sou faixa preta cumpadi, sou preto inteiris, inteiris.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--Lista de 12 produtos para teste-->
+
+    <div class="container">
+      <div class="row">
+        <!--01-->
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 col-xxl-1">
+          <div class="card" style="width: 100%"></div>
+
+            <img src="./imagens/escova.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Escova</h5>
+              <p class="card-text">Escovar os cabelos é uma técnica para embelezar os cabelos, tornando-os organizados e soltos.</p>
+              <a href="https://web.whatsapp.com/send?phone=5582999091079" class="btn btn-agenda">Agendar</a>
+            </div>
+          </div>
+        <!--02-->
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 col-xxl-1">
+          <div class="card" style="width: 100%"></div>
+
+            <img src="./imagens/mao.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Mão</h5>
+              <p class="card-text">Cuide de suas mãos e esteja sempre pronta para a correria do dia a dia.
+              </p>
+              <a href="https://web.whatsapp.com/send?phone=5582999091079" class="btn btn-agenda">Agendar</a>
+            </div>
+          </div>
+          <!--03-->
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 col-xxl-1">
+          <div class="card" style="width: 100%"></div>
+
+            <img src="./imagens/pe.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pé</h5>
+              <p class="card-text">Cuide de seus pés e esteja sempre pronta para a correria do dia a dia.
+              </p>
+              <a href="https://web.whatsapp.com/send?phone=5582999091079" class="btn btn-agenda">Agendar</a>
+            </div>
+          </div>
+          <!--04-->
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 col-xxl-1">
+          <div class="card" style="width: 100%"></div>
+
+            <img src="./imagens/sobrancelha.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sobrancelha</h5>
+              <p class="card-text">Realce as suas sobrancelhas e valorize o olhar com os cuidados certos.
+              </p>
+              <a href="https://web.whatsapp.com/send?phone=5582999091079" class="btn btn-agenda">Agendar</a>
+            </div>
+          </div>
+           <!--05-->
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 col-xxl-1">
+          <div class="card" style="width: 100%"></div>
+
+            <img src="./imagens/coloracao.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Coloração</h5>
+              <p class="card-text">Mudar sempre é bom, transforme-se e arrase com sua nova cor de cabelo.
+              </p>
+              <a href="https://web.whatsapp.com/send?phone=5582999091079" class="btn btn-agenda">Agendar</a>
+            </div>
+          </div>
+           <!--06-->
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 col-xxl-1">
+          <div class="card" style="width: 100%"></div>
+
+            <img src="./imagens/retorque de raiz.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Coloração Retoque</h5>
+              <p class="card-text">Ninguém é obrigado a nada, nem mesmo mostrar os fios brancos. 
+              </p>
+              <a href="https://web.whatsapp.com/send?phone=5582999091079" class="btn btn-agenda">Agendar</a>
+            </div>
+          </div>
+           <!--07-->
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 col-xxl-1">
+          <div class="card" style="width: 100%"></div>
+
+            <img src="./imagens/lavagemespecial.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lavagem Especial</h5>
+              <p class="card-text">Lave seus cabelos com a melhor linha de tratamento para seu cabelo.
+              </p>
+              <a href="https://web.whatsapp.com/send?phone=5582999091079" class="btn btn-agenda">Agendar</a>
+            </div>
+          </div>
+           <!--08-->
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 col-xxl-1">
+          <div class="card" style="width: 100%"></div>
+
+            <img src="./imagens/hidratacao.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Hidratação</h5>
+              <p class="card-text">Oferecemos diversas linhas de tratamento para Hidratação, Nutrição e Reconstrução dos seus cabelos.
+              </p>
+              <a href="https://web.whatsapp.com/send?phone=5582999091079" class="btn btn-agenda">Agendar</a>
+            </div>
+          </div>
+          <!--09-->
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 col-xxl-1">
+          <div class="card" style="width: 100%"></div>
+
+            <img src="./imagens/make.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Make</h5>
+              <p class="card-text">Escolha uma make para arrasar no seu evento! Todo dia é dia de se maquiar. 
+              </p>
+              <a href="https://web.whatsapp.com/send?phone=5582999091079" class="btn btn-agenda">Agendar</a>
+            </div>
+          </div>
+          <!--10-->
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 col-xxl-1">
+          <div class="card" style="width: 100%"></div>
+
+            <img src="./imagens/cortefeminino.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Corte Feminino</h5>
+              <p class="card-text">O Corte de cabelo é o que define o estilo visual dos cabelos e consequentemente, o estilo visual da pessoa. 
+              </p>
+              <a href="https://web.whatsapp.com/send?phone=5582999091079" class="btn btn-agenda">Agendar</a>
+            </div>
+          </div>
+          <!--11-->
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 col-xxl-1">
+          <div class="card" style="width: 100%"></div>
+
+            <img src="./imagens/cortemasculino.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Corte Masculino</h5>
+              <p class="card-text">O Corte de cabelo é o que define o estilo visual dos cabelos e consequentemente, o estilo visual da pessoa. 
+              </p>
+              <a href="https://web.whatsapp.com/send?phone=5582999091079" class="btn btn-agenda">Agendar</a>
+            </div>
+          </div>
+          <!--12-->
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 col-xxl-1">
+          <div class="card" style="width: 100%"></div>
+
+            <img src="./imagens/barba.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Barba</h5>
+              <p class="card-text">O Corte de cabelo é o que define o estilo visual dos cabelos e consequentemente, o estilo visual da pessoa. 
+              </p>
+              <a href="https://web.whatsapp.com/send?phone=5582999091079" class="btn btn-agenda">Agendar</a>
+            </div>
+          </div>
+          <!--13-->
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 col-xxl-1">
+          <div class="card" style="width: 100%"></div>
+
+            <img src="./imagens/penteado.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Penteado</h5>
+              <p class="card-text">Uma super produção em seu cabelo para você arrasar no seu evento.
+              </p>
+              <a href="https://web.whatsapp.com/send?phone=5582999091079" class="btn btn-agenda">Agendar</a>
+            </div>
+          </div>
+          <!--14-->
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 col-xxl-1">
+          <div class="card" style="width: 100%"></div>
+
+            <img src="./imagens/luzes.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Luzes</h5>
+              <p class="card-text"> As luzes são bem finas e são distribuídas por todo o cabelo para criar uma iluminação delicada nos fios.
+              </p>
+              <a href="https://web.whatsapp.com/send?phone=5582999091079" class="btn btn-agenda">Agendar</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="container-fluid" id="footer">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+            <h3>&copy;SpaceHair</h3>
+          </div>
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+            <h4 class="text-center">Siga nas redes
+              <div>
+                <a href="https://www.instagram.com/space_hair_salao/"><img src="./imagens/instagram-logo.png" class="instagram"></a>
+              </div>
+            </h4>
+          </div>
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+            <h4 class="text-center">Fale conosco&reg;
+            <div>
+              <a href="https://web.whatsapp.com/send?phone=5582999091079"><img src="./imagens/whatsapp-logo.png" class="whatsapp"></a>
+            </div>
+          </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+ 
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
